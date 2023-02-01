@@ -497,31 +497,31 @@ aside .form {
    
        /* Hero */
       .hero-area h1 {
-          width: 
+          width: 60%;
       }
    
       /* Aside */
       aside .content-wrapper {
-          justify-content:
+          justify-content:space-around;
       }
    
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
-          width:
+          width: 30%;
       }
    
       /* Features */
       .features h2 {
-          width: 
+          width: 90%;
       }
    
       .features article {
-          flex-basis: 
+          flex-basis: 33%;
       }
    
       /* Reviews */ 
       .reviews article div {
-          width: 
+          width: 42%;
       }
    
   /* ==========================================================================
@@ -529,7 +529,7 @@ aside .form {
      ========================================================================== */
       .mission h2,
       .contact-section .content-wrapper h2 {
-          width: 
+          width: 95%;
       }
    
   /* ==========================================================================
