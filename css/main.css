@@ -106,11 +106,14 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
 }
  
 ul, 
 ol {
- 
+ text-transform: uppercase;
+ list-style: none;
 }
  
 a {
@@ -122,6 +125,9 @@ h1 {
   font-size: 2.25em;
   line-height: 43px;
   font-weight: 500;
+  text-align: left;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+
 }
  
 h2 {
@@ -135,26 +141,21 @@ h4 {
  font-family: "Poppins", sans-serif;
  font-size: 1.125em;
  font-weight: 500;
+ margin: 20px 0;
 }
  
 p {
 	font-size: 0.875em;
   line-height: 18px;
 }
- 
-img {
- 
-}
- 
-figure {
- 
-}
- 
+
 address {
- 
+  font-style: normal;
 }
  
 .content-wrapper {
+  width: 90%;
+  margin: 50px 0;
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -166,6 +167,8 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background: #202322;
+     color: #e2e3ed;
  }
 
  header {
@@ -178,6 +181,7 @@ address {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+
  }
 
  header figure {
@@ -203,6 +207,12 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: ;
+}
+
 .header-divider {
   width: 100%;
   margin: 10px 0 20px 0;
@@ -214,6 +224,7 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
   width: 40px;
+  background: #527158;
 }
 
 footer .social-icons p {
@@ -237,6 +248,7 @@ footer .contact {
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
 }
 /* ----- Mobile Styles - Homepage ------*/
 
@@ -246,6 +258,9 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+  background: url(../img/unplugged-retreat.jpg) center;
+  height: 500px;
 }
 
 /* Aside */
@@ -254,10 +269,36 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #527158;
+  color: #e2e3ed;
 }
 
 aside .form {
   margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+  color: #2a423a;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -265,6 +306,8 @@ aside .form {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #e2e3ed;
+  background: url(../img/unplugged-retreat-features.jpg);
 }
 
 .features h2 {
@@ -276,6 +319,7 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .features article {
@@ -293,6 +337,9 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #2a423a;
+  color: #e2e3ed;
+  text-align: left;
 }
 
 .reviews h2 {
@@ -313,6 +360,8 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #527158;
+  color: #e2e3ed;
 }
 
 .contact-section {
@@ -320,6 +369,8 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #2a423a;
+  color: #e2e3ed;
 }
 
 .contact-content p {
@@ -335,6 +386,8 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #527158;
+  color: #e2e3ed;
 }
 
 .faq .content-wrapper {
