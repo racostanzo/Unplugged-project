@@ -239,6 +239,11 @@ footer .social-icons {
   align-items: center;
 }
 
+.footer i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 footer .social-icons p {
   display: flex;
   justify-content: center;
